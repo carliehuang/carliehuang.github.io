@@ -1,0 +1,75 @@
+body{
+    background-image: url('background.jpeg');
+    background-size: 100%;
+    color: white;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    margin: 0px;
+}
+#motto{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+#top{
+    display: inline;
+    text-align: center;
+}
+#first{
+    width: 49%;
+    margin-top: 3vw;
+    height: 10vw;
+    float: left;
+    border-right: 20px solid white;
+    background:rgba(255,255,255, 0.2);
+    text-align: center;
+}
+#second{
+    width: 49.51%;
+    height: 10vw;
+    float: right;
+    border-left: 20px solid white;
+    background:rgba(255,255,255, 0.2);
+    text-align: center;
+}
+#third{
+    width: 49%;
+    height: 10vw;
+    float: left;
+    border-right: 20px solid white;
+    background:rgba(255,255,255, 0.2);
+    text-align: center;
+}
+#fourth{
+    width: 49.51%;
+    height: 10vw;
+    float: right;
+    border-left: 20px solid white;
+    background:rgba(255,255,255, 0.2);
+    text-align: center;
+}
+a{
+    text-decoration:none;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    margin: 0px;
+}
+#first:hover {
+    color: black;
+    background-image: url('80s.jpeg');
+    background-size: 100%;
+}
+#second:hover {
+    background-image: url('90s.jpeg');
+    background-size: 100%;
+}
+#third:hover {
+    background-image: url('00s.jpg');
+    background-size: 100%;
+}
+#fourth:hover {
+    background-image: url('10s.png');
+    background-size: 100%;
+}

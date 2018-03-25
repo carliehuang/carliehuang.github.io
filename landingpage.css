@@ -1,0 +1,23 @@
+body{
+    background-image: url('background.jpeg');
+    background-size: 100%;
+}
+#bodydiv{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    display:inline;
+    margin:auto;
+    margin-top: 50%;
+}
+p{
+    margin-top: 10%;
+}
+.w3-animate-left {
+    position: relative;
+    animation: animateleft 4s;
+}
+#smaller{
+    font-size: 20px;
+}
